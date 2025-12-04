@@ -1,0 +1,21 @@
+[project]
+name = "api-servic"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Dima",email = "nubile4446@mail.ru"}
+]
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "psycopg2-binary (>=2.9.11,<3.0.0)",
+    "pytest (>=9.0.1,<10.0.0)",
+    "flake8 (>=7.3.0,<8.0.0)",
+    "black (>=25.11.0,<26.0.0)",
+    "django (>=6.0,<7.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
